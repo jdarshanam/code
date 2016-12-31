@@ -23,7 +23,31 @@ Concepts
 ===================
 Java 8 Features
   Default Methods in interfaces
-  Lambda
+  Lambdas, Lambda scope 
+      Accessing local variable, static and  field member variables.  
+  Method and Constructor References   --> person :: new
+  Built-in Functional Interfaces
+      Predicates
+      Functions
+      Suppliers
+      Consumers
+      Comparators
+      Optionals
+   Streams  
+      --- intermediate operations ,which returns stream ---
+      filter
+      sorted
+      map
+      --- terminal operations ---
+      foreach  
+      match
+      count
+      reduce
+      
+   Parallel Streams    
+   MAP
+   DATE api
+   
   
 1. Concurrency
 1.1. What is concurrency?

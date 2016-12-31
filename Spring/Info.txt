@@ -26,6 +26,10 @@ Life-Cycle
 	destroy-method  =====  DisposableBean -- destroy()
 	
 	BeanPostProcessor
+
+((AbstractApplicationContext)context).registerShutdownhook();
+	ApplicationContext --- destroy --- kills all beans.
+	
 	
 Bean-Scope
 	singleton

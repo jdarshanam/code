@@ -1,6 +1,7 @@
 References:
 ================
-
+Twitter url is good for practise
+    https://twitter.github.io/scala_school/basics.html
  
 Q&A
 =========

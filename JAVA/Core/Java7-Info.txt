@@ -1,0 +1,28 @@
+References
+===================
+http://javarevisited.blogspot.com/2014/04/10-jdk-7-features-to-revisit-before-you.html
+https://dzone.com/articles/new-java-7-language-features
+
+
+QnA
+================
+
+
+
+
+Concepts and Features
+=======================
+
+JDK 7 features
+  1. Strings in Switch
+  2. Binary Literals
+  3. Underscore between literals
+  4. Diamon syntax ( List<> l = new ArrayList<>())
+  5. Multi-Catch
+  6. Type interface
+  7. Automatic Resource Management --- AutoClosable or Closeable
+  8. Fork Join framework
+  9. G1 garbage collection
+           prior to Java 7 version (new, old and permgen space). 
+           It's said that G1 is quite predictable and provides greater through put for memory intensive applications
+

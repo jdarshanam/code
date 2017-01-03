@@ -41,6 +41,14 @@ When should I use DataFrames or Datasets?
       Note that you can always seamlessly interoperate or convert from DataFrame and/or Dataset to an RDD, by simple method call .rdd. For instance,
 
 
+Benefits of Dataset APIs
+   1. Static-typing and runtime type-safety
+   2. High-level abstraction and custom view into structured and semi-structured data
+   3. Ease-of-use of APIs with structure
+   4. Performance and Optimization
+   
+
+
 
                RDD              Vs       DSM (Distributed Shared Memory)
   ----------------------------------------------
@@ -103,6 +111,8 @@ cache vs persist
     - to store rdd in-memory or not to re-build. Cache is same as persist with default storage level MEMORY_ONLY.
     - while with persist rdd can be stored in memory and disk. Different levels of persistence are MEMORY_ONLY, MEMORY_ONLY_SER, 
       MEMORY_AND_DISK, MEMORY_AND_DISK_SER, DISK_ONLY.
+Removing Data 
+      RDD.unpersist() do it intentionally to remove partition; or wait for spark to remove it based on LRU (Least Recently Used)
 
 running spark program on cluster
 spark-submit -class<full package with class>  --jars <dependent jars> --files <files you want to be with your prog> <actual jar file>

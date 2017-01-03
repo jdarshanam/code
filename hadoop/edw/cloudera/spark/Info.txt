@@ -95,8 +95,15 @@ RDD Actions
 map vs flatMap
 NLTK - Natural Language Toolkit
 
-sc.broadcast() -- to ship off whatever you want
-sc.value() to get the Object back
+
+Shared Variables
+   1. BroadCast
+         val broadcastVar = sc.broadcast(Array(1, 2, 3))
+        broadcastVar.value   -----  to get the Object back
+    2. Accumulators
+         val accum = sc.longAccumulator("My Accumulator")
+         sc.parallelize(Array(1, 2, 3, 4)).foreach(x => accum.add(x))
+         accum.value   ---- 10 is returned to driver program only. the rdds can't access the accumulator.
 
 rdd.mapValues(x=>(x,1))
 rdd.reduceByValues((x,y)=>(x._1+y._1,x._2+y._2))

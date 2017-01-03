@@ -7,6 +7,8 @@ grouplens.org - for sample data
 http://media.sundog-soft.com/SparkScala/SparkScala.zip  --- scala samples  from udemy
 RDD vs DataFrames vs DataSets
    https://databricks.com/blog/2016/07/14/a-tale-of-three-apache-spark-apis-rdds-dataframes-and-datasets.html
+Spark Job submit 
+   http://spark.apache.org/docs/latest/submitting-applications.html
    
    
 Q&A

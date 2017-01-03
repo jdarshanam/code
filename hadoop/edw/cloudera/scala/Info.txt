@@ -2,10 +2,37 @@ References:
 ================
 Twitter url is good for practise
     https://twitter.github.io/scala_school/basics.html
+
+Can visit this url for QnA
+    http://career.guru99.com/top-25-interview-questions-on-scala
+    
+Scala language learning
+    https://www.cs.helsinki.fi/u/wikla/OTS/Sisalto/examples/
+
+Definitely good source for learning - Scala org 
+    http://docs.scala-lang.org/tutorials/tour/tour-of-scala
  
 Q&A
 =========
+01. Difference between Object and class in scala
+02. What is recursion tail in scala
+03. What is scala trait ? when can you use it?
+04. What is case class ? How it can be used ?
+05. What is function curying in scala ?
+06. What is closure in scala ?
+07. What is monad in scala?
+08. What is scala higher order function?
+09. What are the four types of scala identifiers
+10. What are different types of scala literals ?
+11. When do you want a Trait instead of an Abstract Class 
+
 
 
 Key Points & Buzz words
 =====================
+
+Anonymous function
+        val addOne =  (x: Int) => x + 1
+        
+
+

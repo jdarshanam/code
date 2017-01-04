@@ -1,6 +1,6 @@
 References
 ===================
-
+https://www.careercup.com/page?pid=amazon-interview-questions
 
 
 
@@ -13,4 +13,4 @@ QnA
 05. Garbage Collection
 06. Race condition vs dead lock.
 07. What is public or private synonym
-08. 
+08. System.exit 0 , 1 values significance???

@@ -3,6 +3,8 @@ References
 AVRO, Jason, Protocol Buffers (ProtBuff)
       https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html
 
+File Compression explained good
+	http://www.conductor.com/nightlight/how-to-build-a-speedy-custom-compression-codec-for-hadoop/
 
 
 
@@ -29,7 +31,5 @@ File Compression
 		"-Dmapreduce.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec" -outKey
 		org.apache.hadoop.io.Text -outValue org.apache.hadoop.io.Text input output
 		
-File Compression explained good
-	http://www.conductor.com/nightlight/how-to-build-a-speedy-custom-compression-codec-for-hadoop/
 
 

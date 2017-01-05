@@ -34,5 +34,11 @@ Key Points & Buzz words
 Anonymous function
         val addOne =  (x: Int) => x + 1
         
+	                Meaning	                        Scala notation
+covariant	    C[T’] is a subclass of C[T]	            [+T]
+contravariant	C[T] is a subclass of C[T’]	            [-T]
+invariant	    C[T] and C[T’] are not related	        [T]
+
+        
 
 

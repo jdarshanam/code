@@ -6,6 +6,8 @@ References:
  
  
  
+ 
+ 
 Q&A
 =========
 Difference between external and internal tables

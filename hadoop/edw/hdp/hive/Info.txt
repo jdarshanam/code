@@ -1,6 +1,7 @@
 References:
 ================
  https://cwiki.apache.org/confluence/display/Hive/Home  --- I RECOMMEND this confluence for complete features.
+ https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions   --- Hive transactions.
  http://getindata.com/blog/post/surprising-sqoop-to-hive-gotchas/   -- types of import; files supported for direct import;
  http://www.javatpoint.com/hive    --- In this URL they have given wide range of hadoop QnA
  http://getindata.com/blog/post/schema-evolution-with-avro-and-hive/  -- schema evolution with AVRO and HIVE.

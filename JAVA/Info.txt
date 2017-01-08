@@ -1,6 +1,7 @@
 References
 ===================
 https://www.careercup.com/page?pid=amazon-interview-questions
+http://www.geeksforgeeks.org/static-class-in-java/    ---- static vs non-static innner classes 
 
 
 

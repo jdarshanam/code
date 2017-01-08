@@ -3,6 +3,7 @@ References:
  http://getindata.com/blog/post/surprising-sqoop-to-hive-gotchas/   -- types of import; files supported for direct import;
  http://www.javatpoint.com/hive    --- In this URL they have given wide range of hadoop QnA
  http://getindata.com/blog/post/schema-evolution-with-avro-and-hive/  -- schema evolution with AVRO and HIVE.
+ https://www.tutorialspoint.com/hive/index.htm   ---- Hive tutorial and can used as QnA
  
  
  

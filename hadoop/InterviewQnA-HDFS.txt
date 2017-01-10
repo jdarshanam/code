@@ -2,11 +2,8 @@ References
 --------------------
 https://www.dezyre.com/article/top-100-hadoop-interview-questions-and-answers-2016/159
 
-
-Buzz words
-----------------
-Checkpoint node
-fsimage
+CheckPoint and fsimage.
+http://stackoverflow.com/questions/22581932/how-does-checkpointing-work-in-hdfs-i-would-like-to-get-clarity-on-fs-checkpoin
 
 
 

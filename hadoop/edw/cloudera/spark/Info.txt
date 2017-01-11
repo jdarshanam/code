@@ -13,6 +13,7 @@ Spark Executor
    https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-executor.html
 Top 5 mistakes with spark application
    https://intellipaat.com/blog/top-5-mistakes-writing-apache-spark-applications/
+   https://www.youtube.com/watch?v=WyfHUNnMutg
 Top 10 Machine Learning Algorithm
    https://www.dezyre.com/article/top-10-machine-learning-algorithms/202
 Handling skewed data

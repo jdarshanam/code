@@ -15,6 +15,8 @@ Top 5 mistakes with spark application
    https://intellipaat.com/blog/top-5-mistakes-writing-apache-spark-applications/
 Top 10 Machine Learning Algorithm
    https://www.dezyre.com/article/top-10-machine-learning-algorithms/202
+Handling skewed data
+   http://stackoverflow.com/questions/38960599/apache-spark-handling-skewed-data
    
    
 Q&A
@@ -25,7 +27,8 @@ Q&A
 
 02. Spark - repartition() vs coalesce()
      http://stackoverflow.com/questions/31610971/spark-repartition-vs-coalesce
-03. 
+03. What are salted keys
+      
 
 Key Points & Buzz words
 =====================

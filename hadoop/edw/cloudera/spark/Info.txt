@@ -63,6 +63,7 @@ When should I use DataFrames or Datasets?
       Note that you can always seamlessly interoperate or convert from DataFrame and/or Dataset to an RDD, by simple method call .rdd. For instance,
 
 
+
 Benefits of Dataset APIs
    1. Static-typing and runtime type-safety
    2. High-level abstraction and custom view into structured and semi-structured data

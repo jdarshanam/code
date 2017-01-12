@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+Concepts
+==============
+
+TOP 5 Mistakes happen with Spark applications
+
+1. Assign/allocation of number executors
+2. Shuffle block issues due to
+	data skewness
+	Joins and cartesian joins
+	SPARK SQL has low number of default partitions 200
+	
+	How to increase partitions
+		In Spark SQL    spark.sql.shuffle.partitions=500
+	In regular Spark applications 
+		rdd.repartition() and rdd.coalesce()
+		
+	Take Aways
+		1. Dont' have too big partitions	
+			- Your job will fail due to 2 GB limit
+		2. Don't have too few partitions
+			- Your job will be slow , not make use of parallelism
+		3. Rule of thumb : ~ 128 MB per partitions
+		4. If Num of partitions < 2000 , but close; bump to just > 2000
+		
+3. Slow jobs on Join/Shuffle
+   scenario: Your dataset takes 20 seconds to run over with a map job, but takes 4 hrs when joined or shuffled. whats wrong?
+   Skew or Cartesian
+   Answer:
+	1. Salting
+	2. Isolated salting
+	3. Isolated Map Join
+   Managing Parallelism
+	To fight Cartesian Join
+	- Nested Structures
+	- Windowing
+	- Skip Steps
+4. Out of Luck ?
+	1. Do you ever run out of memory.
+	2. Do you ever have more than 20 stages ?
+	3. Is your driver doing a lot of work ?
+	
+	Mistake - DAG Management
+	1. Shuffles are to be avoided
+		a. Map side reducing if possible
+		b. Think about partitioning/bucketing ahead of time
+		c. Do as much as possible with a single
+		d. Only send what you have to send
+		e. Avoid skew and cartesians
+	2. ReduceByKey over GroupByKey
+		ReduceByKey can do almost anythat that GroupByKey can do
+			1. Aggregations
+			2. Windowing
+			3. Use memory
+			4. But you have more control
+		ReduceByKey has a fixed limit of memory requirements.
+		GroupByKey is unbound and dependent of the data.	
+	3. TreeReduce over Reduce
+	    
+	4. Use Complex Types
+	
+	
+5. Ever seen this ?
+	java.lang.NoSuchMethodError
+	Maven Shading
+	<relocations>
+		<relocation>
+			<pattern>com.google.protobuf</pattern>
+			<shadedPattern>com.company.my.protobuf</shadedPattern>
+		</relocation>
+	</relocations>
+	
+
+	

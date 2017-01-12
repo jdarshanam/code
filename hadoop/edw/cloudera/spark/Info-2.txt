@@ -1,4 +1,7 @@
-
+References
+===============
+TOP 5 Mistakes of Spark applications
+	http://www.slideshare.net/hadooparchbook/top-5-mistakes-when-writing-spark-applications-66374492  --- complete reference
 
 
 

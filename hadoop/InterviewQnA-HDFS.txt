@@ -7,6 +7,10 @@ CheckPoint and fsimage.
     http://hortonworks.com/blog/hdfs-metadata-directories-explained/
 JOURNALNODE -- In an HA deployment, edits are logged to a separate set of daemons called JournalNodes.
     http://hortonworks.com/blog/hdfs-metadata-directories-explained/
+DataLake Questions
+    http://blogs.teradata.com/data-points/7-questions-data-lakes-and-hadoop/
+    
+    
 
 
 

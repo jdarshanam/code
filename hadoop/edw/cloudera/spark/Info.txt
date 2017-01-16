@@ -1,5 +1,6 @@
 References:
 ================
+Starting point - http://spark.apache.org/docs/latest/programming-guide.html
 http://spark.apache.org/docs/latest/quick-start.html
 http://scala-ide.org
 winutils.exe - to disguise spark about hadoop
@@ -127,7 +128,7 @@ Shared Variables
     2. Accumulators
          val accum = sc.longAccumulator("My Accumulator")
          sc.parallelize(Array(1, 2, 3, 4)).foreach(x => accum.add(x))
-         accum.value   ---- 10 is returned to driver program only. the rdds can't access the accumulator.
+         accum.value   ---- 10 is returned to driver program only. Tasks running on a cluster can then add to it using the add method. However, they cannot read its value. Only the driver program can read the accumulator’s value, using its value method.
 
 rdd.mapValues(x=>(x,1))
 rdd.reduceByValues((x,y)=>(x._1+y._1,x._2+y._2))

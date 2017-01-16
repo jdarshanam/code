@@ -9,10 +9,8 @@ JOURNALNODE -- In an HA deployment, edits are logged to a separate set of daemon
     http://hortonworks.com/blog/hdfs-metadata-directories-explained/
 DataLake Questions
     http://blogs.teradata.com/data-points/7-questions-data-lakes-and-hadoop/
-    
-    
-
-
+Nice to go through all the questions for hadoop
+    https://www.edureka.co/blog/interview-questions/top-50-hadoop-interview-questions-2016/
 
 
 

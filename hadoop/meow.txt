@@ -15,5 +15,17 @@ joe	      150
 
 
 
+			
+			
+			
+Policy N0	Enrollment Date	Prm Amnt	Vested Bonus
+646612383	4/1/2012	320		Click for details
+648098430	13/01/2015	25,400.00	Click for details
+648098431	13/01/2015	3,063.00	Click for details
+648098432	13/01/2015	21,143.00	Click for details
+648098433	13/01/2015	7,350.00	Click for details
+648204391	4/1/2012	48,040.00	Click for details
+			
+			
 
 

@@ -29,3 +29,183 @@ Policy N0	Enrollment Date	Prm Amnt	Vested Bonus
 			
 
 
+https://paperlesspay.talx.com/allegis
+Your employee ID number with TEKsystems, Inc. is 05564939
+Pin 08172015
+
+
+866 884 7374  ---  wellsforgo HAS
+312 879 7715  -  Brain 
+
+
+https://member.carefirst.com/mos/#/secured/home
+caref1rst.jagan
+caref1rst.jagan --- CareFirst@321
+
+
+Member ID : LGG815 70 6010
+
+Adult physical exam -
+	- 
+
+http://provider.bcbs.com/
+
+
+Blue cross Blue shield - 1 877 691 5856 
+
+
+From <https://member.carefirst.com/mos/index.html> 
+
+
+
+DOC: Anitha Chandra Puri
+North Western
+1460 N Halstead 502 room number
+
+312 926 7337
+
+8:45 am --- 
+
+Enterprise share - member number  4JK6JYZ
+
+From <https://www.enterprise.com/en/reserve.html#commit> 
+
+
+
+From <https://www.enterprise.com/en/enroll.html#success> 
+
+
+Zipcar
+Jagandarshanam	Chaitra@123
+Turbotax
+Jdarshanamttax
+Swecha@123
+5 digit digital sign - 41286
+
+Discover - jagan.darshanam4 --- S*2!@#
+Banana - jagan.darshanam@gmail.com repba123
+
+
+SouthWest
+Rapid a/c->  20470753704 Jagan@123
+SW540505
+
+
+https://www.fieldglass.net/?language=en_US
+jagan.darshanam@gmail.com
+3BWn5jfTZn
+
+https://www.ktbsonline.com/hub/d3d3LmFsbGVnaXNtYXJrZXRwbGFjZS5jb20%3d
+Jagan.darshanam@gmail.com
+Jagan@123
+
+River city - 312 431 2800
+
+1. Capacity analysis 
+	- CPU utilization
+	- number of thread increase
+	- memory utilization
+	- context switching -- understand it
+	- JVM memory allocation and aspects of JVM
+	- Connection pool
+	- DB indexing  , index caching
+	- DB Partitioning
+	- Watch out for latencies
+	- SOAP vs Restful vs plain HttpClient
+
+What are different data sources in weblogic  
+	1. Generic data source
+	2. Grid link  data source
+	3. Multi data source
+What are
+	1. Admin server
+	2. Managed Server
+	3. Non managed server
+
+      <cookie-name>SASSESSIONID</cookie-name>
+      <cookie-domain>.bankofamerica.com</cookie-domain>
+      <cookie-secure>true</cookie-secure>
+      <url-rewriting-enabled>false</url-rewriting-enabled>
+
+1. LTM url , GTM ?
+2. Bladelogic on /off – start up scripts??? What is the issue about. Which salman was talking about.
+3. Tivoli monitoring – vasco tokens feed file
+4. Elevated access ? T3 Session ???
+5. ADSF scan by OAD ? 
+6. Fortify scan ???
+7. Why do we need encoding?
+8. Binary and hexadecimal notations?
+9. Types of encryption techniques ?
+10. Safepass webservers and App servers … Infrastructure Architecture … understanding is must
+11. XSS, Brute force attack
+12. Failing Disk .. In prod … how do you know… what is the remedy ?
+13. Performance/Load testing parameters ??? TPS - transaction per second ??? Are there any ????
+14. Goldengate … DB related.
+15. SSLV3 vs TSL --- bank moved out form SSLV3 because of the issue.
+16. No DNS Cache ???
+17. OracleWallet ??
+18. failure web server bridge 
+19. idempotent set to off
+20. Web proxy software to bypass client side scripting ?
+21. Code signing ?
+22. Client hello vs ssl vs TLS
+23. BEAST, POODLE, CRIME, RC4 issue
+24. Oauth vs SAML vs Openid vs IDP SP
+25. LockableHashtable ?
+
+DB Analysis
+ 
+· Increased I/O wait time is noticed on DB servers.
+· Queries involving audit log table show higher I/O activity presumably because of the size of table.
+· Need to identify queries showing spikes up to 5-10 sec and determine if additional indexing is required.
+ 
+Short-term goals
+ 
+· Identify the number of records in sasactivities, sasaudit, rnvirtual and tokenuser table
+· Provide queries to DBA to purge older records.
+· To minimize the performance hit related to delete queries, use table truncate and re-import data process.
+· Identify queries that are running slowly.
+· Setup indexes on tables involving slow running queries.
+· After older data is deleted, rebuild indexes one DC at a time.
+	 
+Long-term goals
+· Partition needs to be introduced which depends on availability of additional disk.
+· Creation of multiple tablespaces for data. DBA to decide which tables write to which tablespace depending on table growth and frequency & type of DMLs.
+Determine the data retention policy for tables with faster growth rate.
+
+
+spring-defaults
+
+http://dist.springsource.com/release/STS/help/descriptors-3.0.xml
+
+spring-data-gemfire  	https://raw.github.com/SpringSource/spring-data-gemfire-sts-templates/master/builds/descriptor.xml
+spring-integration	https://raw.github.com/SpringSource/spring-integration-templates/master/si-sts-templates/builds/descriptor.xml
+
+Java Vulnerabilities 
+Security helpers
+	- Type Checking
+	- Immutable Strings
+Security Threats
+	- Introspection
+
+
+Challenges  Observed 
+	1. Static content inclusion into the webpages from other machines. This content is about the soft token download instructions. This content is prone to change frequently. LTM (weblogic appserver) hosting sasadmin application is trying to pull the content and combine it before committing the response.
+	Implemented solution is <c:import file=download.jsp>.
+	Since static content is on SHA1 certificate and LTM on SHA2. there was issues. We can not upgrade LTM to SHA2 because WSUUM is still on SHA1.
+	Vadafone ??? How it is involved.
+	2. Polling time calculation ? Deciding factors. Latency for SAS to Vendor to Mobile device.
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
